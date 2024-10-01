@@ -8,16 +8,16 @@ export default function Navbar() {
       <div className={styles.navbar}>
         <ul>
           <li>
-            <Link href="#">Home</Link>
+            <Link href="#">Portfolio</Link>
           </li>
           <li>
-            <Link href="#">About</Link>
+            <Link href={"/about"}>About</Link>
           </li>
           <li>
-            <Link href="#">Service</Link>
+            <Link href={"/contact-us"}>Contact us</Link>
           </li>
           <li>
-            <Link href="#">Contact</Link>
+            <Link href="/services">Services</Link>
           </li>
           <div className={styles.search}>
             <input

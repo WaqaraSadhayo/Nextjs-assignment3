@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities; */
 
-.background {
+/*For Adjust the footer at down of the page */
+.container {
   background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }

@@ -1,0 +1,9 @@
+/* .containerContact {
+   background-color: aliceblue; 
+   min-height: 100vh; 
+} */
+.head1 {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid palevioletred;
+}

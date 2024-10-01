@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bgimg from "../viki.jpeg";
+import bgimg from "../public/images/viki.jpeg";
 import styles from "./profile.module.css";
 
 export default function Personal() {
@@ -9,8 +9,13 @@ export default function Personal() {
         <h2>Waqar Ahmed</h2>
         <p>
           Myself Waqar Ahmed. I am student of Software Engineering.I am also
-          Learing about Artificial Intelligence and web3. My life gaol is to
-          become a Project Manager in Microsoft.{" "}
+          Learing about Artificial Intelligence and web3. My life goal is to
+          become a
+          <b>
+            {" "}
+            <i>Project Manager</i>
+          </b>{" "}
+          in Microsoft.
         </p>
       </div>
       <div className={styles.profileImage}>

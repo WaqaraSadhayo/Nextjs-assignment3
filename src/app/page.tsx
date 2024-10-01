@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/header";
 import Personal from "./components/profile";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
           <Navbar />
           <Personal />
         </div>
+        <Footer />
       </div>
     </>
   );

@@ -1,0 +1,45 @@
+.footer {
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
+
+.footer ul {
+  overflow: auto;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .socialMedia {
+  margin: 20px 0;
+}
+
+.footer .socialMedia a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer .socialMedia img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+.footer {
+  margin-top: auto;
+}
